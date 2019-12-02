@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Olá, "
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/txt_usuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=""
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btn_consulta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:background="@color/colorPrimary"
+                app:cardCornerRadius="6dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    android:padding="20dp"
+                    android:text="Consultas"
+                    android:textColor="@color/Branco"
+                    android:textSize="20dp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btn_exame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:background="@color/colorPrimary"
+                app:cardCornerRadius="6dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    android:padding="20dp"
+                    android:text="Exames"
+                    android:textColor="@color/Branco"
+                    android:textSize="20dp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btn_exame_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:background="@color/colorPrimary"
+                app:cardCornerRadius="6dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    android:padding="20dp"
+                    android:text="Status Exames"
+                    android:textColor="@color/Branco"
+                    android:textSize="20dp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btn_ficha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:background="@color/colorPrimary"
+                app:cardCornerRadius="6dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    android:padding="20dp"
+                    android:text="Ficha"
+                    android:textColor="@color/Branco"
+                    android:textSize="20dp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btn_sair"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:background="@color/colorPrimary"
+                app:cardCornerRadius="6dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    android:padding="20dp"
+                    android:text="Sair"
+                    android:textColor="@color/Branco"
+                    android:textSize="20dp" />
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

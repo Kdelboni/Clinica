@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.ExameActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Agendar Exame"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Exame de"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/black"/>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spiner_especialidade_exame"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Convênio"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spiner_convenio_exame"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Medico"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spiner_medico_exame"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Data"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgViewDataExame"
+                android:src="@drawable/ic_data" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/restornoDataExame"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Horario"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spiner_horario_exame"/>
+
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/btn_enviarExame"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:background="@color/colorPrimary"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:cardCornerRadius="6dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="Marcar"
+                        android:textColor="@color/Branco"
+                        android:textSize="20dp" />
+
+                </androidx.cardview.widget.CardView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+</LinearLayout>

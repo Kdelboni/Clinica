@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Clínica</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="exame">
+
+        // elementos que vao aparecer no componete
+        <item>Selecione Um Exame</item>
+        <item>Raio-X</item>
+        <item>Tomografia Computadorizada</item>
+        <item>Mamografia</item>
+        <item>Ultrassom</item>
+        <item>Eletrocardiograma</item>
+        <item>Ecocardiograma com Doppler</item>
+        <item>Exames Laboratoriais</item>
+
+    </string-array>
+
+
+    <string-array name="agenda">
+
+        // elementos que vao aparecer no componete
+        <item>Selecione Uma Especialidade</item>
+        <item>Cardiologista</item>
+        <item>Ginecologista</item>
+        <item>Ortopedista</item>
+        <item>Clinica Médica</item>
+        <item>Pediatra</item>
+        <item>Endócrino</item>
+        <item>Vascular</item>
+        <item>Gastroenterologia</item>
+        <item>Dermatologista</item>
+        <item>Neurologista</item>
+        <item>Geriatria</item>
+        <item>Urologista</item>
+        <item>Proctologista</item>
+        <item>Cirurgião Geral</item>
+
+    </string-array>
+
+
+    <string-array name="convenio">
+
+        // elementos que vao aparecer no componete
+        <item>Selecione Um Convênio</item>
+        <item>GreenLine</item>
+        <item>Bradesco Saúde</item>
+        <item>Mediservice</item>
+        <item>BIOVIDA</item>
+        <item>Garantia de Saúde</item>
+        <item>BioSaúde</item>
+        <item>AMEPLAN Saúde</item>
+        <item>SulAmérica Saúde</item>
+        <item>São Miguel Saúde</item>
+        <item>Porto Seguro Saúde</item>
+
+
+    </string-array>
+
+
+    <string-array name="medico">
+
+        // elementos que vao aparecer no componete
+        <item>Selecione Um(a) Médico(a)</item>
+        <item>Luiz</item>
+        <item>Maria</item>
+        <item>Beatriz</item>
+        <item>Pedro</item>
+
+    </string-array>
+
+
+    <string-array name="horario">
+
+        // elementos que vao aparecer no componete
+        <item>Selecione Um Horário</item>
+        <item>10:00</item>
+        <item>10:30</item>
+        <item>11:00</item>
+        <item>11:30</item>
+        <item>12:00</item>
+        <item>12:30</item>
+        <item>13:00</item>
+        <item>13:30</item>
+        <item>14:00</item>
+        <item>14:30</item>
+        <item>15:00</item>
+        <item>15:30</item>
+        <item>16:00</item>
+
+    </string-array>
+
+</resources>

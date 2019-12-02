@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.CadastroClienteActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Cadastro Cliente "
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/nome_cliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nome: " />
+
+            <EditText
+                android:id="@+id/rg_cliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="RG: " />
+
+            <EditText
+                android:id="@+id/endereco_cliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Endereço: " />
+
+            <EditText
+                android:id="@+id/telefone_cliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Telefone: " />
+
+            <EditText
+                android:id="@+id/email_cliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="E-Mail: " />
+
+            <EditText
+                android:id="@+id/login_cliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Login: " />
+
+            <EditText
+                android:id="@+id/senha_cliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Senha: "
+                android:password="true" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btn_cadastrarUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:background="@color/colorPrimary"
+                app:cardCornerRadius="6dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Cadastrar"
+                    android:textColor="@color/Branco"
+                    android:textSize="20dp" />
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
